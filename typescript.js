@@ -7,6 +7,7 @@ module.exports = {
       jsx: true,
     },
   },
+  // 官方推荐配置插件 plugin:@typescript-eslint/recommended
   extends: ['./basic', 'plugin:@typescript-eslint/recommended'],
   rules: {
     indent: 'off',
