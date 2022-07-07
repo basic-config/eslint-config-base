@@ -1,10 +1,10 @@
 {
-  "name": "eslint-base-config",
+  "name": "eslint-config-fe",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/minjs1n/eslint-config"
+    "url": "git+https://github.com/basic-config/eslint-config-base.git"
   },
   "main": "index.js",
   "files": [
@@ -30,8 +30,8 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.17.0",
-    "@typescript-eslint/parser": "^5.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
@@ -40,9 +40,18 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
-    "eslint": "^8.14.0",
+    "eslint": "^8.19.0",
     "react": "^18.0.0",
     "typescript": "^4.6.3",
     "vue": "^3.2.31"
-  }
+  },
+  "description": "eslint 配置",
+  "bugs": {
+    "url": "https://github.com/minjs1n/eslint-config/issues"
+  },
+  "homepage": "https://github.com/minjs1n/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "suxiao"
 }
